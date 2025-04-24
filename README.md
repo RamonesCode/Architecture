@@ -5,7 +5,7 @@ Este projeto demonstra uma implementação prática da **Arquitetura Hexagonal**
 ---
 
 ## 🧱 Estrutura do Projeto
-
+   ```bash
 OrderManagementHexagonal/
 ├── OrderManagement.Core # Entidades de domínio e interfaces (Ports) 
 │ ├── Entities/Order.cs 
@@ -17,7 +17,7 @@ OrderManagementHexagonal/
 ├── OrderManagement.API # Camada de apresentação (Controllers) 
 │ ├── Controllers/OrdersController.cs 
 │ └── Program.cs
-
+   ```
 
 ---
 
@@ -35,21 +35,23 @@ OrderManagementHexagonal/
 2. Restaure os pacotes NuGet:
    ```bash
    dotnet restore
-3.Compile e execute o projeto Web:
+3. Compile e execute o projeto Web:
 dotnet run --project OrderManagement.API
-4.Use uma ferramenta como Postman ou Insomnia para testar os endpoints da API.
+4. Use uma ferramenta como Postman ou Insomnia para testar os endpoints da API.
 
 🧪 Exemplo de Requisição (POST)
-POST /api/orders
-Content-Type: application/json
+   ```bash
+      POST /api/orders
+      Content-Type: application/json
 
-{
-  "productName": "Mouse Gamer",
-  "quantity": 3
-}
+      {
+         "productName": "Mouse Gamer",
+         "quantity": 3
+      }
+   ```
+## 🙌 Contribuições
 
-🙌 Contribuições
 Sinta-se à vontade para abrir issues, enviar PRs ou sugerir melhorias!
 
-🧑‍💻 Autor
+## 🧑‍💻 Autor
 Ramon | @RamonesCode
