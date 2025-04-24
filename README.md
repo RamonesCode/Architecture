@@ -6,7 +6,17 @@ Este projeto demonstra uma implementação prática da **Arquitetura Hexagonal**
 
 ## 🧱 Estrutura do Projeto
 
-OrderManagementHexagonal/ ├── OrderManagement.Core # Entidades de domínio e interfaces (Ports) │ ├── Entities/Order.cs │ └── Ports/IOrderRepository.cs ├── OrderManagement.Application # Casos de uso (Use Cases) │ └── UseCases/CreateOrder.cs ├── OrderManagement.Infrastructure # Repositórios e dependências externas │ └── Repositories/OrderRepository.cs ├── OrderManagement.API # Camada de apresentação (Controllers) │ ├── Controllers/OrdersController.cs │ └── Program.cs
+OrderManagementHexagonal/
+├── OrderManagement.Core # Entidades de domínio e interfaces (Ports) 
+│ ├── Entities/Order.cs 
+│ └── Ports/IOrderRepository.cs 
+├── OrderManagement.Application # Casos de uso (Use Cases) 
+│ └── UseCases/CreateOrder.cs 
+├── OrderManagement.Infrastructure # Repositórios e dependências externas 
+│ └── Repositories/OrderRepository.cs 
+├── OrderManagement.API # Camada de apresentação (Controllers) 
+│ ├── Controllers/OrdersController.cs 
+│ └── Program.cs
 
 
 ---
