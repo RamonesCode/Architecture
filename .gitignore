@@ -1,0 +1,44 @@
+
+# Build Results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Swagger output
+swagger.json
+swagger-ui/
+
+# Auto-generated
+Generated/
+
+# SQLite VS Workspace
+*.sqlite
+VSWorkspaceState.json
+
+# VS backup e layout
+DocumentLayout*
