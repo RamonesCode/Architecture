@@ -49,6 +49,9 @@ dotnet run --project OrderManagement.API
          "quantity": 3
       }
    ```
+## 🚀 Swagger
+![image](https://github.com/user-attachments/assets/76b71032-1eb5-42c5-88be-fce54eb4b6d2)
+
 ## 🙌 Contribuições
 
 Sinta-se à vontade para abrir issues, enviar PRs ou sugerir melhorias!
